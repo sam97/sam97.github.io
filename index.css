@@ -8,5 +8,23 @@ text-align:center
 
 a {
 text-decoration:none;
-color:inherit
+color:inherit;
+opacity:0.4
 }
+
+a:hover {
+opacity: 1;
+-webkit-transition: opacity 0.8s;
+-moz-transition: opacity 0.8s;
+-ms-transition: opacity 0.8s;
+-o-transition: opacity 0.8s;
+transition: opacity 0.8s
+}
+
+/* 
+#title {
+background: -webkit-radial-gradient(#FFFFFF, #4C4C4C);
+background: -o-radial-gradient(#FFFFFF, #4C4C4C);
+background: -moz-radial-gradient(#FFFFFF, #4C4C4C);
+background: radial-gradient(#FFFFFF, #4C4C4C);
+} */
